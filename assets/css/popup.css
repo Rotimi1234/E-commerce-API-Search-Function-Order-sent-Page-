@@ -1,0 +1,251 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+  --header-height: 3.5rem;
+
+  /*========== Colors ==========*/
+  --first-color: hsl(31, 100%, 70%);
+  --button-color: hsl(0, 0%, 17%);
+  --button-color-alt: hsl(0, 0%, 21%);
+  --title-color: hsl(0, 0%, 15%);
+  --text-color: hsl(0, 0%, 35%);
+  --text-color-light: hsl(0, 0%, 55%);
+  --body-color: hsl(0, 0%, 99%);
+  --container-color: #fff;
+  --border-color: hsl(0, 0%, 94%);
+
+  /*========== Font and typography ==========*/
+  --body-font: 'Roboto', sans-serif;
+  --biggest-font-size: 2rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: .938rem;
+  --small-font-size: .813rem;
+  --smaller-font-size: .75rem;
+
+  /*========== Font weight ==========*/
+  --font-medium: 500;
+  --font-bold: 700;
+
+  /*========== Margenes Bottom ==========*/
+  --mb-0-5: .5rem;
+  --mb-0-75: .75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+  --mb-3: 3rem;
+
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+
+@media screen and (min-width: 968px) {
+  :root {
+    --biggest-font-size: 2.5rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
+    --smaller-font-size: .813rem;
+  }
+}
+
+.popupBox {
+    position: absolute;
+    padding-top: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+  }
+  
+  .popupBox__content {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background-color: var(--body-color);
+    border-radius: 20px;
+    border: 1px solid #fff;
+    display: flex;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .popupBox__img {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .popupBox__img img{
+    width: 70%;
+  }
+  
+  .popupBox__img::before {
+    content: "";
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-color: var(--body-color);
+    border-radius: 50%;
+  }
+  
+  .popupBox__img img {
+    position: relative;
+    max-width: 250px;
+    z-index: 1;
+  }
+  
+  .popupBox__contentTwo {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popupBox__title {
+    color: var(--text-color);
+    line-height: 1em;
+    font-weight: 300;
+    font-size: 2em;
+  }
+  
+  .popupBox__titleTwo {
+    font-size: 4em;
+    color: var(--text-color);
+    line-height: 1em;
+  }
+  
+  .popupBox__titleTwo span {
+    color: var(--text-color);
+    font-size: 0.75em;
+  }
+  
+  .popupBox__description {
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  
+  .popupBox__btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: var(--button-color);
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: .3s;
+    margin-top: 15px;
+    border-radius: 30px;
+  }
+  
+  .close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background: #f3f3f3 url(https://www.pikpng.com/pngl/m/302-3024308_close-icon-png-x-png-icon-clipart.png);
+    background-repeat: no-repeat;
+    background-size: 10px;
+    background-position: center;
+    z-index: 10;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+  /*Media Queries */
+  
+  @media (max-width: 768px) {
+    .popupBox__content {
+      width: 300px;
+      height: auto;
+      flex-direction: column;
+    }
+    .popupBox__img {
+      height: 200px;
+      transform: translateY(-50px);
+    }
+    .popupBox__contentTwo {
+      height: auto;
+      text-align: center;
+      padding: 20px;
+      padding-top: 0;
+    }
+    .popupBox__img::before {
+      background: #fff;
+    }
+    .close {
+      top: -50px;
+      right: -10px;
+      background: #fff url(https://www.pikpng.com/pngl/m/302-3024308_close-icon-png-x-png-icon-clipart.png);
+      background-repeat: no-repeat;
+      background-size: 10px;
+      background-position: center;
+    }
+  }
+
+
+
+  .filters {
+    justify-content: center;
+    margin-bottom: 7rem;
+    display: flex;
+  }
+  .filters div {
+    padding: 1.2rem 1rem;
+    color: var(--text-color);
+    font-size: 1.3rem;
+    border-radius: 0.8rem;
+    box-shadow: var(--first-color);
+    cursor: pointer;
+  }
+   .filters div:not(:last-child) {
+    margin-right: 4rem;
+  }
+   .filters div:hover,
+   .filters div.active {
+    background: var(--first-color);
+    color: var(--container-color);
+    box-shadow: var(--first-color);
+  }
+
+ 
+
+  @media (max-width: 768px) {
+      .filters {
+      margin-bottom: 7rem;
+    }
+      .filters div {
+      padding: 1.2rem 2.5rem;
+      font-size: 1.6rem;
+    }
+      .filters div:not(:last-child) {
+      margin-right: 2rem;
+    }
+  }
+  @media (max-width: 770px) {
+      .filters {
+      flex-wrap: wrap;
+    }
+      .filters div {
+      padding: 0.7rem 1rem;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+      .filters div:not(:last-child) {
+      margin-right: 1rem;
+    }
+  }
+
+  

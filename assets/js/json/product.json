@@ -1,0 +1,208 @@
+[
+      {
+        "id": 1,
+        "title": "Nike Air Men’s Hoodie -  Imported Hoodie Red",
+        "price": "130",
+        "url": "./assets/img/new1.png",
+        "category": "Dresses"
+      },
+      {
+        "id": 2,
+        "title": "Armani Frok Ladies -  Imported Fork Blue",
+        "price": "210",
+        "url": "./assets/img/new2.png",
+        "category": "Dresses"
+      },
+      {
+        "id": 3,
+        "title": "Nike Air Men’s Hoodie -  Imported Hoodie Red",
+        "price": "90",
+        "url": "./assets/img/new3.png",
+        "category": "Jewellery"
+      },
+      {
+        "id": 4,
+        "title": "Nike Air Men’s Hodie -  Imported Hoodie Red",
+        "price": "100",
+        "url": "./assets/img/new4.png",
+        "category": "Jewellery"
+      },
+      {
+        "id": 5,
+        "title": "Nike Air Men’s Hoodie -  Imported Hoodie Red",
+        "price": "100",
+        "url": "./assets/img/featured1.png",
+        "category": "Dresses"
+      },
+      {
+        "id": 6,
+        "title": "Nike Air Men’s Hoodie -  Imported Hoodie Red",
+        "price": "50",
+        "url": "./assets/img/featured2.png",
+        "category": "Accessories"
+      },
+      {
+        "id": 7,
+        "title": "Nike Air Men’s Hooie -  Imported Hoodie Red",
+        "price": "50",
+        "url": "./assets/img/featured3.png",
+        "category": "Footwear"
+      },
+      {
+        "id": 8,
+        "title": "Nike Air Men’s Hoodie -  Imported Hoodie Red",
+        "price": "300",
+        "url": "./assets/img/new4.png",
+        "category": "Footwear"
+      },
+      {
+        "id": 9,
+        "title": "Nike Air Men’s Hoodie -  Imported Hoodie Red",
+        "price": "300",
+        "url": "./assets/img/new4.png",
+        "category": "Footwear"
+      },
+      {
+        "id": 10,
+        "title": "ROG Headphone - Model 25",
+        "price": "300",
+        "url": "./assets/img/new4.png",
+        "category": "Accessories"
+      },
+      {
+        "id": 11,
+        "title": "Nike Air Men’s Hoodie -  Imported Hoodie Red",
+        "price": "700",
+        "url": "./assets/img/product2.png",
+        "category": "Accessories"
+      },
+      {
+        "id": 12,
+        "title": "Nike Air Men’s Hoodie -  Imported Hoodie Red",
+        "price": "500",
+        "url": "./assets/img/product1.png",
+        "category": "Accessories"
+      },
+      {
+        "id": 13,
+        "title": "Nike Air Men’s Hoodie -  Imported Hoodie Red",
+        "price": "900",
+        "url": "./assets/img/product3.png",
+        "category": "Accessories"
+      },
+      {
+        "id": 14,
+        "title": "ROG Headphone - Model 25",
+        "price": "100",
+        "url": "./assets/img/product5.png",
+        "category": "Accessories"
+      },
+      {
+        "id": 15,
+        "title": "ROG Headphone - Model 25",
+        "price": "250",
+        "url": "./assets/img/product3.png",
+        "category": "Accessories"
+      },
+      {
+        "id": 16,
+        "title": "ROG Headphone - Model 25",
+        "price": "350",
+        "url": "./assets/img/product4.png",
+        "category": "Accessories"
+      },
+      {
+        "id": 17,
+        "title": "Almond Toe Court Shoes, Patent Black",
+        "category": "Footwear",
+        "price": 99.00,
+        "url": ""
+    },
+    {
+        "id": 18,
+        "title": "Suede Shoes, Blue",
+        "category": "Footwear",
+        "price": 42.00,
+        "url": ""
+    },
+    {
+        "id": 19,
+        "title": "Leather Driver Saddle Loafers, Tan",
+        "category": "Footwear",
+        "price": 34.00,
+        "url": ""
+    },
+    {
+        "id": 20,
+        "title": "Flip Flops, Red",
+        "category": "Footwear",
+        "price": 19.00,
+        "url": ""
+    },
+    {
+        "id": 21,
+        "title": "Flip Flops, Blue",
+        "category": "Footwear",
+        "price": 19.00,
+        "url": ""
+    },
+    {
+        "id": 22,
+        "title": "Gold Button Cardigan, Black",
+        "category": "Dresses",
+        "price": 167.00,
+        "url": ""
+    },
+    {
+        "id": 23,
+        "title": "Cotton Shorts, Medium Red",
+        "category": "Dresses",
+        "price": 30.00,
+        "url":"./assets/img/featured2.png"
+    },
+    {
+        "id": 24,
+        "title": "Fine Stripe Short Sleeve￼Shirt, Grey",
+        "category": "Dresses",
+        "price": 49.99,
+        "url": "./assets/img/new2.png"
+    },
+    {
+        "id": 25,
+        "title": "Fine Stripe Short Sleeve￼Shirt, Green",
+        "category": "Dresses",
+        "price": 49.99,
+        "offer": 39.99,
+        "url": "./assets/img/new4.png"
+    },
+    {
+        "id": 26,
+        "title": "Sharkskin Waistcoat, Charcoal",
+        "category": "Dresses",
+        "price": 75.00,
+        "url": ""
+    },
+    {
+        "id": 27,
+        "title": "Lightweight Patch Pocket￼Blazer, Deer",
+        "category": "Dresses",
+        "price": 175.50,
+        "url": ""
+    },
+    {
+        "id": 28,
+        "title": "Bird Print Dress, Black",
+        "category": "Dresses",
+        "price": 270.00,
+        "url": ""
+    },
+    {
+        "id": 29,
+        "title": "Mid Twist Cut-Out Dress, Pink",
+        "category": "Dresses",
+        "price": 540.00,
+        "url": ""
+    }
+    ]
+
+  

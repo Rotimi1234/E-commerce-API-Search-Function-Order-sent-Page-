@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "title": "Nike Air Men’s Hoodie -  Imported Hoodie Red",
+      "price": "130",
+      "url": "./assets/img/new1.png",
+      "category": "Dresses"
+    },
+    {
+      "id": 2,
+      "title": "Armani Frok Ladies -  Imported Fork Blue",
+      "price": "210",
+      "url": "./assets/img/new2.png",
+      "category": "Dresses"
+    },
+    {
+      "id": 3,
+      "title": "Nike Air Men’s Hoodie -  Imported Hoodie Red",
+      "price": "90",
+      "url": "./assets/img/new3.png",
+      "category": "Jewellery"
+    },
+    {
+      "id": 4,
+      "title": "Nike Air Men’s Hodie -  Imported Hoodie Red",
+      "price": "100",
+      "url": "./assets/img/new4.png",
+      "category": "Jewellery"
+    },
+    {
+      "id": 5,
+      "title": "Nike Air Men’s Hoodie -  Imported Hoodie Red",
+      "price": "100",
+      "url": "./assets/img/featured1.png",
+      "category": "Dresses"
+    },
+    {
+      "id": 6,
+      "title": "Nike Air Men’s Hoodie -  Imported Hoodie Red",
+      "price": "50",
+      "url": "./assets/img/featured2.png",
+      "category": "Accessories"
+    }
+  ]
+

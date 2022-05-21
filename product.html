@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!--=============== BOXICONS ===============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--=============== SWIPER CSS ===============--> 
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/popup.css">
+
+    <title>Dami_Dev Watch Store</title>
+</head>
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">
+                <i class='bx bxs-watch nav__logo-icon'></i> Dami_dev
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html#featured" class="nav__link">Featured</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#products" class="nav__link">Products</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html#new" class="nav__link">New</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x' ></i>
+                </div>
+            </div>
+
+            <div class="nav__btns">
+                <!-- Theme change button -->
+                <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+                <div class="nav__shop" id="cart-shop">
+                    <a href="product.html" style="text-decoration: none; color: var(--title-color);"><i class='bx bx-shopping-bag' ></i></a>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt' ></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <div class="home__img-bg">
+                    <img src="assets/img/home.png" alt="" class="home__img">
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                        Facebook
+                    </a>
+                    <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                        Twitter
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                        Instagram
+                    </a>
+                </div>
+
+                <div class="home__data">
+                    <h1 class="home__title">DAMI_DEV WATCH<br> COLLECTIONS B720</h1>
+                    <p class="home__description">
+                        Latest arrival of the new imported watches of the B720 series, 
+                        with a modern and resistant design.
+                    </p>
+                    <span class="home__price">$1245</span>
+
+                    <div class="home__btns">
+                        <a href="#" class="button button--gray button--small">
+                            Discover
+                        </a>
+
+                        <button class="button home__button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="popupBox">
+            <div class="popupBox__content">
+              <div class="close">
+                </div>
+              <div class="popupBox__img">
+                <img src="assets/img/transparency.png" alt="" />
+              </div>
+              <div class="popupBox__contentTwo">
+                <div>
+                  <h3 class="popupBox__title"><u>Note</u></h3>
+                  <h2 class="popupBox__titleTwo">Read <sup>The</sup><span> Following</span></h2>
+                  <p class="popupBox__description">
+                    Please take note of the product id number you wish to buy
+                  </p>
+                  <a class="popupBox__btn" onclick="cloose()">Dismiss</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+        
+
+        <!--==================== PRODUCTS ====================-->
+        <section class="products section container" id="products">
+            <h2 class="section__title">
+                Products
+            </h2>
+            <div class="body">
+            <div class="box">
+                <input type="checkbox" id="check">
+                <div class="search-box">
+                  <input type="text" placeholder="Type here..." id="searchBar">
+                  <label for="check" class="icon">
+                    <i class="bx bx-search"></i>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="filters d-flex">
+                <div id="all">All</div>
+                <div id="jewellery">Jewellery</div>
+                <div id="accessories">Accessories</div>
+                <div id="dresses">Dresses</div>
+                <div id="footwear">Footwear</div>
+              </div>
+            <div class="products__container grid" id="productList">
+               
+
+            </div>
+        </section>
+
+        <!--==================== NEWSLETTER ====================-->
+        <section class="newsletter section container">
+            <div class="newsletter__bg grid">
+                <div>
+                    <h2 class="newsletter__title">Subscribe Our <br> Newsletter</h2>
+                    <p class="newsletter__description">
+                        Don't miss out on your discounts. Subscribe to our email 
+                        newsletter to get the best offers, discounts, coupons, 
+                        gifts and much more.
+                    </p>
+                </div>
+
+                <form action="https://formsubmit.co/damilarerotimi29@gmail.com" method="POST" class="newsletter__subscribe">
+                    <input type="email" name="email" placeholder="Enter your email" class="newsletter__input">
+                    <button type="submit" class="button">
+                        SUBSCRIBE
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <h3 class="footer__title">Our information</h3>
+
+                <ul class="footer__list">
+                    <li>1234 - Peru</li>
+                    <li>La Libertad 43210</li>
+                    <li>123-456-789</li>
+                </ul>
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title">About Us</h3>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link">Support Center</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Customer Support</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Copy Right</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Product</h3>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link">Road bikes</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Mountain bikes</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Electric</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Accesories</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Social</h3>
+
+                <ul class="footer__social">
+                    <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+
+                    <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-twitter' ></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-instagram' ></i>
+                    </a>
+                </ul>
+            </div>
+        </div>
+
+        <span class="footer__copy">&#169; dami_dev. All rigths reserved</span>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up"> 
+        <i class='bx bx-up-arrow-alt scrollup__icon' ></i>
+    </a>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/product.js"></script>
+    <script src="assets/js/popup.js"></script>
+</body>
+</html>

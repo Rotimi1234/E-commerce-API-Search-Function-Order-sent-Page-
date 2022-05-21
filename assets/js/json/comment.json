@@ -1,0 +1,67 @@
+ [
+    {
+      "id": 1,
+      "name": "Phoebe",
+      "email": "Customer",
+      "url": "./assets/img/new1.png",
+      "body": "They are the best watches that one acquires, also they are always with the latest news and trends, with a very comfortable email and especially with the attention you receive, they are always attentive to your questions.",
+      "category": "Dresses"
+    },
+    {
+      "id": 2,
+      "name": "Semilore",
+      "email": "210",
+      "url": "./assets/img/new2.png",
+      "body": "They are the best watches that one acquires, also they are always with the latest news and trends, with a very comfortable email and especially with the attention you receive, they are always attentive to your questions.",
+      "category": "Dresses"
+    },
+    {
+      "id": 3,
+      "name": "Damilare",
+      "email": "90",
+      "url": "./assets/img/new3.png",
+      "body": "They are the best watches that one acquires, also they are always with the latest news and trends, with a very comfortable email and especially with the attention you receive, they are always attentive to your questions.",
+      "category": "Jewellery"
+    },
+    {
+      "id": 4,
+      "name": "David",
+      "email": "100",
+      "url": "./assets/img/new4.png",
+      "body": "They are the best watches that one acquires, also they are always with the latest news and trends, with a very comfortable email and especially with the attention you receive, they are always attentive to your questions.",
+      "category": "Jewellery"
+    },
+    {
+      "id": 5,
+      "name": "Damilare",
+      "email": "90",
+      "url": "./assets/img/new3.png",
+      "body": "They are the best watches that one acquires, also they are always with the latest news and trends, with a very comfortable email and especially with the attention you receive, they are always attentive to your questions.",
+      "category": "Jewellery"
+    },
+    {
+      "id": 6,
+      "name": "David",
+      "email": "100",
+      "url": "./assets/img/new4.png",
+      "body": "They are the best watches that one acquires, also they are always with the latest news and trends, with a very comfortable email and especially with the attention you receive, they are always attentive to your questions.",
+      "category": "Jewellery"
+    },
+    {
+      "id": 7,
+      "name": "Emmanuel",
+      "email": "100",
+      "url": "./assets/img/featured1.png",
+      "body": "They are the best watches that one acquires, also they are always with the latest news and trends, with a very comfortable email and especially with the attention you receive, they are always attentive to your questions.",
+      "category": "Dresses"
+    },
+    {
+      "id": 6,
+      "name": "David",
+      "email": "100",
+      "url": "./assets/img/new4.png",
+      "body": "They are the best watches that one acquires, also they are always with the latest news and trends, with a very comfortable email and especially with the attention you receive, they are always attentive to your questions.",
+      "category": "Jewellery"
+    }
+  ]
+
